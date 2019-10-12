@@ -4,7 +4,7 @@ This repository is a template for a minimal EMBL-EBI-themed [reveal.js][revealjs
 
 # Install
 
-Firstly, to develop the presentation you need to have [Hugo][hugo] installed.
+Firstly, to develop the presentation, you need to have [Hugo][hugo] installed.
 
 ```sh
 brew install hugo
@@ -37,7 +37,7 @@ hugo serve
 In your web browser, navigate to http://localhost:1313/ . Every time you make changes
 this webpage will auto-reload to reflect those changes.
 
-You should see a screen that looks like This
+You should see a screen that looks like this
 
 [INSERT IMG]
 
@@ -52,10 +52,10 @@ A full list of configurations can be found [here][config].
 
 The slides themselves are within `content/`. `_index.md` is the "root" for your slides
 and you can also define presentation-wide settings in this file too. You can put all of
-your slides in `_index.md` if you wish, but you can also break them up into sections.
+your slides in `_index.md` if you wish, but you can likewise break them up into sections.
 Sections will be vertically stacked within the presentation.
 
-So if we had a `_index.md` file that looked like This
+So if we had an `_index.md` file that looked like This
 
 ```md
 +++
@@ -63,7 +63,7 @@ title = "My presentation"
 outputs = ["Reveal"]
 +++
 
-# Hello world!
+# Hello, world!
 
 This is my first slide.
 
@@ -80,7 +80,7 @@ This is my second slide
 This slide describes the methods and has a pretty plot
 ```
 
-We could move the slides about Mars into their own section with the following setup
+We could move the slides about Mars into their own section with the following setup.
 
 `content/_index.md`
 ```md
@@ -107,7 +107,7 @@ This is my second slide
 
 ## Mars method
 
-This slide describes the methods and has a pretty plot
+This slide describes the methods and has a pretty plot.
 
 ```
 
@@ -119,7 +119,7 @@ with `weight = 11` it will come after `content/mars/method.md`. See [this][weigh
 
 If you would like to make any changes to the font, colours, style etc. then this can be
 done in `static/stylesheets/robot-lung-ebi.css`. The current stylesheet is a copy of
-the [robot-lung][robot-lung] theme which I have changed some colours to match the EBI
+the [robot-lung][robot-lung] theme, which I have changed some colours to match the EBI
 colour scheme.
 
 ## Logo
@@ -128,7 +128,7 @@ There are two forms of the EBI logo, which can be found in `static/logos/`. Ther
 for white background presentations (`ebi_white_bg.svg`) and one for dark backgrounds
 (`ebi_dark_bg.svg`).  
 If you would like to make any changes to the size, layout, or which logo is used, then
-instructions can be found in [this short tutorial][reveal-hugo-logo]. 
+instructions can be found in [this short tutorial][reveal-hugo-logo].
 
 
 
