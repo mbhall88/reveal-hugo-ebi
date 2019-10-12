@@ -1,0 +1,17 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "reveal-hugo"
+
+[outputFormats.Reveal]
+baseName = "index"
+mediaType = "text/html"
+isHTML = true
+
+[params.reveal_hugo]
+custom_theme = "stylesheets/robot-lung.css"
+margin = 0.13333
+
+[params.logo]
+src = "/logos/ebi_white_bg.svg"
+alt = "EBI logo"
