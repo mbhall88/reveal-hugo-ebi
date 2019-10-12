@@ -9,7 +9,7 @@ mediaType = "text/html"
 isHTML = true
 
 [params.reveal_hugo]
-custom_theme = "stylesheets/robot-lung.css"
+custom_theme = "stylesheets/robot-lung-ebi.css"
 margin = 0.13333
 
 [params.logo]
