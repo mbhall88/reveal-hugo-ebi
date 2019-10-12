@@ -67,7 +67,7 @@ A full list of configurations can be found [here][config].
 The slides themselves are within `content/`. `_index.md` is the "root" for your slides
 and you can also define presentation-wide settings in this file too. You can put all of
 your slides in `_index.md` if you wish, but you can likewise break them up into sections.
-Sections will be vertically stacked within the presentation.
+Sections will be vertically stacked within the presentation when placed in `content/home/`.
 
 So if we had an `_index.md` file that looked like This
 
@@ -108,7 +108,7 @@ outputs = ["Reveal"]
 This is my first slide.
 ```
 
-`content/mars/methods.md`
+`content/home/mars.md`
 ```md
 +++
 weight = 10
@@ -126,7 +126,9 @@ This slide describes the methods and has a pretty plot.
 ```
 
 *Note: `weight` is how you define the order of slides. If you have another `.md` file
-with `weight = 11` it will come after `content/mars/method.md`. See [this][weight] for more info.*
+with `weight = 11` it will come after `content/home/method.md`. See [this][weight] for more info.*
+
+For more information on sections, see [the docs][sections].
 
 
 ## Theme/Styling
@@ -158,3 +160,4 @@ instructions can be found in [this short tutorial][reveal-hugo-logo].
 [weight]: https://forestry.io/blog/harness-the-power-of-static-to-create-presentations/#additional-markdown-files
 [robot-lung]: https://revealjs-themes.dzello.com/robot-lung.html#/
 [reveal-hugo-logo]: https://reveal-hugo.dzello.com/logo-example/#/
+[sections]: https://github.com/dzello/reveal-hugo#root-vs-section-presentations
