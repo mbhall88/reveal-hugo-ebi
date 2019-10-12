@@ -1,3 +1,17 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [EBI reveal-hugo template](#ebi-reveal-hugo-template)
+- [Install](#install)
+- [Usage](#usage)
+  - [Serve](#serve)
+  - [Edit](#edit)
+  - [Theme/Styling](#themestyling)
+  - [Logo](#logo)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # EBI reveal-hugo template
 
 This repository is a template for a minimal EMBL-EBI-themed [reveal.js][revealjs] presentation.  
