@@ -113,6 +113,7 @@ This is my first slide.
 +++
 weight = 10
 +++
+{{% section %}}
 # Hello Mars!
 
 This is my second slide
@@ -122,7 +123,7 @@ This is my second slide
 ## Mars method
 
 This slide describes the methods and has a pretty plot.
-
+{{% /section %}}
 ```
 
 *Note: `weight` is how you define the order of slides. If you have another `.md` file
