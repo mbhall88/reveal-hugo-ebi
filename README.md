@@ -39,7 +39,7 @@ this webpage will auto-reload to reflect those changes.
 
 You should see a screen that looks like this
 
-![Template screenshot][screenshot]
+![Template screenshot](static/images/screenshot.png?raw=true)
 
 
 ## Edit
@@ -144,4 +144,3 @@ instructions can be found in [this short tutorial][reveal-hugo-logo].
 [weight]: https://forestry.io/blog/harness-the-power-of-static-to-create-presentations/#additional-markdown-files
 [robot-lung]: https://revealjs-themes.dzello.com/robot-lung.html#/
 [reveal-hugo-logo]: https://reveal-hugo.dzello.com/logo-example/#/
-[screenshot]: https://github.com/mbhall88/reveal-hugo-ebi/tree/master/static/images/screenshot.png
