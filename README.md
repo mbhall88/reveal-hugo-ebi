@@ -34,6 +34,7 @@ Next, clone this template in a directory (ideally named for your presentation)
 presentation="awesome_conference"
 git clone https://github.com/mbhall88/reveal-hugo-ebi "$presentation"
 cd "$presentation"
+git submodule update --init
 ```
 
 # Usage
