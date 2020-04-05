@@ -6,6 +6,7 @@
 - [Usage](#usage)
   - [Serve](#serve)
   - [Edit](#edit)
+  - [Maths](#maths)
   - [Theme/Styling](#themestyling)
   - [Logo](#logo)
 
@@ -131,6 +132,27 @@ This slide describes the methods and has a pretty plot.
 with `weight = 11` it will come after `content/home/method.md`. See [this][weight] for more info.*
 
 For more information on sections, see [the docs][sections].
+
+## Maths
+
+Maths rendering with [MathJax][mathjax] is supported provided you have access to an internet connection when initially serving the slides.
+
+In short, you write equations in [Tex/LaTex format][texmaths].
+
+An example of adding an equation to a slide
+
+```md
+## Cool equations
+
+Displayed equations are wrapped in double-\$
+
+$$\frac{n!}{k!(n-k)!} = \binom{n}{k}$$  
+
+Inline equations like $E=mc^2$ are wrapped in single-\$
+
+```
+
+![Equation slide](static/images/maths.png?raw=true)
 
 
 ## Theme/Styling
