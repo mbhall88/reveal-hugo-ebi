@@ -9,6 +9,7 @@
   - [Maths](#maths)
   - [Theme/Styling](#themestyling)
   - [Logo](#logo)
+- [Deploy](#deploy)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -171,7 +172,9 @@ If you would like to make any changes to the size, layout, or which logo is used
 instructions can be found in [this short tutorial][reveal-hugo-logo].
 
 
+# Deploy
 
+If you would like to share your presentation with others, or even access it without having to run a local server, the presentation is easily deployable to a static website. [Netlify][netlify] is an easy solution that I have used many times. [It's as simple as connecting your GitHub repository][netlify-docs]. See [here][example] for an example presentation deployed with Netlify.
 
 
 
@@ -185,3 +188,6 @@ instructions can be found in [this short tutorial][reveal-hugo-logo].
 [robot-lung]: https://revealjs-themes.dzello.com/robot-lung.html#/
 [reveal-hugo-logo]: https://reveal-hugo.dzello.com/logo-example/#/
 [sections]: https://github.com/dzello/reveal-hugo#root-vs-section-presentations
+[netlify]: https://www.netlify.com/
+[netlify-docs]: https://docs.netlify.com/configure-builds/get-started/
+[example]: https://tac2.netlify.app/#/
